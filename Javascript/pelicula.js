@@ -242,3 +242,16 @@ movies([
     calificacion: 10,
   },
 ]);
+
+const yuri = new Pelicula({
+  id: "po2353678",
+  titulo: "Viajes",
+  director: "Yoiner Duran",
+  anio: 2022,
+  pais: ["Corea", "Colombia", "Canada"],
+  genero: ["romance"],
+  calificacion: 10,
+});
+
+yuri.generos();
+yuri.fichaTecnica();
